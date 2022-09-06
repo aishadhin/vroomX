@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          vroomX From Heezol
+          vroomX From developent
         </a>
       </header>
     </div>
