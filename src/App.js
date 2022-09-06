@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          vroomX From developent
+          vroomX From aishadhin
         </a>
       </header>
     </div>
