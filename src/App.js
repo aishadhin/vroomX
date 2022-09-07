@@ -5,8 +5,11 @@ import Navbar from './Components/Shared/Navbar/Navbar';
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      {/* <h1>hello</h1> */}
+
+      <Navbar>
+
+      </Navbar>
+
     </div>
   );
 }
