@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@material-tailwind/react';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           vroomX From Heezol
         </a>
         <h1 className='text-5xl'>hello from tailwind</h1>
+        <Button>Button</Button>
       </header>
     </div>
   );
