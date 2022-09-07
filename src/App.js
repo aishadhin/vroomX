@@ -17,6 +17,7 @@ function App() {
         >
           vroomX From aishadhin
         </a>
+        <h1 className='text-5xl'>hello from tailwind</h1>
       </header>
     </div>
   );
