@@ -6,6 +6,24 @@
 *{
     box-sizing: border-box !important;
 }
+section{
+    padding: 60px 0;
+}
+.p-color{
+    color: rgb(12, 12, 12);
+}
+.red-color{
+    color:#F02441;
+}
+.red-bg{
+    background-color:#F02441;
+}
+.white-color{
+    color:#ffffff;
+}
+.white-bg{
+    background-color:#ffffff;
+}
 p{
     font-size: 16px !important;
     line-height: 26px !important;
