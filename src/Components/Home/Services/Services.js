@@ -5,7 +5,7 @@ import carBuy from "../../../Assets/Icons/car (1).png";
 
 const Services = () => {
   return (
-    <section className="bg-slate-100">
+    <section className="bg-red-100" style={{background:`url(https://media.discordapp.net/attachments/1015888809407287327/1020989775739617330/circleeeee.png)`}}>
       <div className="lg:grid lg:grid-cols-2 gap-4 py-5">
       {/* text  */}
         <div className="lg:mx-auto text-center lg:text-start">
