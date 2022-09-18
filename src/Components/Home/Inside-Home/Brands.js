@@ -9,6 +9,7 @@ const Brands = () => {
     return (
         <section className='grid lg:grid-cols-2'>
 
+            {/* Brand 1 Starts From Here */}
             <Link to="" class="relative block bg-black group">
                 <img alt="Developer" src={bmw} class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50" />
 
@@ -25,7 +26,9 @@ const Brands = () => {
                     </div>
                 </div>
             </Link>
+            {/* Brand 1 Ends Here */}
 
+            {/* Brand 2 Starts From Here */}
             <Link to="" class="relative block bg-black group">
                 <img alt="Developer" src={audi} class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50" />
 
@@ -42,7 +45,9 @@ const Brands = () => {
                     </div>
                 </div>
             </Link>
+            {/* Brand 2 Ends Here */}
 
+            {/* Brand 3 Starts From Here */}
             <Link to="" class="relative block bg-black group">
                 <img alt="Developer" src={mercedez} class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50" />
 
@@ -59,7 +64,9 @@ const Brands = () => {
                     </div>
                 </div>
             </Link>
+            {/* Brand 3 Ends Here */}
 
+            {/* Brand 4 Starts From Here */}
             <Link to="" class="relative block bg-black group">
                 <img alt="Developer" src={tesla} class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50" />
 
@@ -77,6 +84,7 @@ const Brands = () => {
                     </div>
                 </div>
             </Link>
+            {/* Brand 4 Ends Here */}
 
         </section>
     );

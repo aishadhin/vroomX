@@ -8,7 +8,7 @@ const Navbar = ({ children }) => {
             <input id="responsive" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar starts from here */}
-                <div className="w-full navbar bg-black text-white lg:px-8 fixed top-0">
+                <div className="w-full navbar bg-black text-white lg:px-8 fixed top-0 z-50">
                     <div className="flex-1 px-2 mx-2"><img src={whiteLogo} className="w-32" alt="logo" /></div>
                     <div className="flex-none hidden lg:block">
                         <ul className="menu-horizontal">
