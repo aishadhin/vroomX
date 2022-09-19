@@ -57,3 +57,6 @@ span {
     line-height: 22px !important;
     font-family: poppins;
 }
+span.font-bold {
+    font-size: 30px !important;
+}
