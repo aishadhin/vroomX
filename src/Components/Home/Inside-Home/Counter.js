@@ -34,7 +34,6 @@ const Counter = () => {
             <h3 className='font-bold'><CountUp className='font-bold' style={{fontSize:"60px"}} delay={3} end={4800} /> +</h3>
             <h3 className='text-xl'>Service</h3>
             </div>
-        </div>
         </section>
     );
 };
