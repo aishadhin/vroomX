@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import icon from '../../../Assets/Icons/goal-min.png';
 
 const FAQ = () => {
+
+    const ReadMore = ({ children }) => {
+        const text = children;
+        const [isReadMore, setIsReadMore] = useState(true);
+        const toggleReadMore = () => {
+            setIsReadMore(!isReadMore);
+        };
+        return (
+            <p className="text">
+                {isReadMore ? text.slice(0, 200) + " ...." : text}
+                <br />
+                <button onClick={toggleReadMore} className="read-or-hide btn btn-link p-0 text-[#F02441]">
+                    {isReadMore ? "read more" : "show less"}
+                </button>
+            </p>
+        );
+    };
+
     return (
         <section className='mx-auto max-w-screen-xl px-6 sm:px-6 my-28'>
 
@@ -27,8 +45,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'> What kind of training do your mechanics have?</h4>
 
-                                    <p class="text-gray-700">In the same vein, people don’t want someone working on their car without the proper experience and training. Just because a shop is insured and bonded doesn’t mean the employees know what they’re doing—provide the answer here so that your audience has peace of mind in your entire team. Explain the onboarding process, requirements for all employees, and training that you provide to assist them throughout their careers. </p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>In the same vein, people don’t want someone working on their car without the proper experience and training. Just because a shop is insured and bonded doesn’t mean the employees know what they’re doing—provide the answer here so that your audience has peace of mind in your entire team. Explain the onboarding process, requirements for all employees, and training that you provide to assist them throughout their careers. </ReadMore>
                                 </div>
                             </div>
                         </li>
@@ -46,8 +63,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'>Is your shop licensed and insured?</h4>
 
-                                    <p class="text-gray-700">People spend a lot of money on their vehicles. They don’t want to take them to just anyone when they need a little TLC, and especially if they need a major repair. Provide the information about your shop’s licensing and insurance, as well as any other relevant information, like how long you’ve been in business or professional organizations that you belong to. This will give people confidence in your transparency and your professionalism alike.</p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>People spend a lot of money on their vehicles. They don’t want to take them to just anyone when they need a little TLC, and especially if they need a major repair. Provide the information about your shop’s licensing and insurance, as well as any other relevant information, like how long you’ve been in business or professional organizations that you belong to. This will give people confidence in your transparency and your professionalism alike.</ReadMore>
                                 </div>
                             </div>
                         </li>
@@ -65,8 +81,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'>What is an ASE Master Certified Technician?</h4>
 
-                                    <p class="text-gray-700">ASE is short for National Institute for Automotive Service Excellence. ASE is an independent, non-profit organization that tests and certifies automotive professionals. It is a way to gauge the level of technical expertise a technician has and brings confidence to the vehicle owner. To be an ASE master certified technician, you have to pass a variety of ASE tests in different subject matters.  To remain ASE certified, a technician must re-test every five years to verify they are keeping with all the advancements in the profession.</p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>ASE is short for National Institute for Automotive Service Excellence. ASE is an independent, non-profit organization that tests and certifies automotive professionals. It is a way to gauge the level of technical expertise a technician has and brings confidence to the vehicle owner. To be an ASE master certified technician, you have to pass a variety of ASE tests in different subject matters.  To remain ASE certified, a technician must re-test every five years to verify they are keeping with all the advancements in the profession.</ReadMore>
                                 </div>
                             </div>
                         </li>
@@ -100,8 +115,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'>Do you offer any sort of warranty?</h4>
 
-                                    <p class="text-gray-700">VroomX is a certified NAPA AutoCare center which means we are able to offer a 24 months or 24,000 miles, whichever comes first Peace of Mind® Warranty on qualifying repairs.  Best of all, this warranty is a nationwide warranty which means you are covered at any NAPA AutoCare Center if you are traveling or relocate.  We offer a 12 months or 12,000 miles warranty on all other repairs.</p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>VroomX is a certified NAPA AutoCare center which means we are able to offer a 24 months or 24,000 miles, whichever comes first Peace of Mind® Warranty on qualifying repairs.  Best of all, this warranty is a nationwide warranty which means you are covered at any NAPA AutoCare Center if you are traveling or relocate.  We offer a 12 months or 12,000 miles warranty on all other repairs.</ReadMore>
                                 </div>
                             </div>
                         </li>
@@ -119,8 +133,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'>What is preventative maintenance?</h4>
 
-                                    <p class="text-gray-700">Preventative maintenance for your car really comes down to REGULAR maintenance.  This helps to ensure your vehicle is running optimally and helps to avoid larger issues from developing.  Overall, preventative maintenance makes your car safe, dependable, efficient, and in the end, saves you money.  A well maintained car will not only last longer but will get better gas mileage.</p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>Preventative maintenance for your car really comes down to REGULAR maintenance.  This helps to ensure your vehicle is running optimally and helps to avoid larger issues from developing.  Overall, preventative maintenance makes your car safe, dependable, efficient, and in the end, saves you money.  A well maintained car will not only last longer but will get better gas mileage.</ReadMore>
                                 </div>
                             </div>
                         </li>
@@ -138,8 +151,7 @@ const FAQ = () => {
 
                                     <h4 className='font-bold text-lg mb-3'>Can I apply for financing through VroomX?</h4>
 
-                                    <p class="text-gray-700">Absolutely! VroomX offers financing through NAPA EasyPay credit card with Synchrony bank.  Click here to learn more.  An added benefit to using your NAPA EasyPay credit card for your repairs is it extends your Peace of Mind® Warranty on qualifying repairs to 36 months or 36,000 miles whichever comes first.</p>
-                                    <button className='btn btn-link p-0 text-[#F02441]'>Read more</button>
+                                    <ReadMore>Absolutely! VroomX offers financing through NAPA EasyPay credit card with Synchrony bank.  Click here to learn more.  An added benefit to using your NAPA EasyPay credit card for your repairs is it extends your Peace of Mind® Warranty on qualifying repairs to 36 months or 36,000 miles whichever comes first.</ReadMore>
                                 </div>
                             </div>
                         </li>
