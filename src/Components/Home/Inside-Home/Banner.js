@@ -1,5 +1,5 @@
 import React from "react";
-import car from "../../../Assets/Icons/Banner-min.png"
+import car from "../../../Assets/Images/Banner-min.png"
 import { BsArrowRightShort } from 'react-icons/bs';
 
 const Banner = () => {
