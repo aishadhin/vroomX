@@ -21,7 +21,7 @@ const FAQ = () => {
     };
 
     return (
-        <section className='mx-auto max-w-screen-xl px-6 sm:px-6 my-28'>
+        <section className='mx-auto max-w-screen-xl px-6 sm:px-6 mb-28 mt-52'>
 
             <div className='border-t-2'></div>
 

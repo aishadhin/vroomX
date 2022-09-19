@@ -5,7 +5,10 @@ import carBuy from "../../../Assets/Icons/car (1).png";
 
 const Services = () => {
   return (
-    <section className="bg-red-100" style={{background:`url(https://media.discordapp.net/attachments/1015888809407287327/1020989775739617330/circleeeee.png)`}}>
+    <section className="bg-red-100 relative">
+      <div className="absolute left-[-100px] top-[-50px]">
+        <img src="https://media.discordapp.net/attachments/1015888809407287327/1020989775739617330/circleeeee.png" alt="" />
+      </div>
       <div className="lg:grid lg:grid-cols-2 gap-4 py-5">
       {/* text  */}
         <div className="lg:mx-auto text-center lg:text-start">
@@ -55,6 +58,9 @@ const Services = () => {
           </div>
         </div>
         </div>
+      </div>
+      <div className="absolute right-[-100px] top-[400px]">
+        <img src="https://media.discordapp.net/attachments/1015888809407287327/1020989775739617330/circleeeee.png" alt="" />
       </div>
     </section>
   );
