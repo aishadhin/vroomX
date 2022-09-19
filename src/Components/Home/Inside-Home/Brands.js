@@ -15,7 +15,7 @@ const Brands = () => {
 
                 <div class="relative p-8">
 
-                    <h2 class="text-white">BMW</h2>
+                    <h3 class="text-white mb-5 lg:mb-0">BMW</h3>
 
                     <div class="lg:mt-64">
                         <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
@@ -34,7 +34,7 @@ const Brands = () => {
 
                 <div class="relative p-8">
 
-                    <h2 class="text-white">Audi</h2>
+                    <h3 class="text-white mb-5 lg:mb-0">Audi</h3>
 
                     <div class="lg:mt-64">
                         <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
@@ -53,7 +53,7 @@ const Brands = () => {
 
                 <div class="relative p-8">
 
-                    <h2 class="text-white">Mercedes</h2>
+                    <h3 class="text-white mb-5 lg:mb-0">Mercedes</h3>
 
                     <div class="lg:mt-64">
                         <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
@@ -72,7 +72,7 @@ const Brands = () => {
 
                 <div class="relative p-8">
 
-                    <h2 class="text-white">Tesla</h2>
+                    <h3 class="text-white mb-5 lg:mb-0">Tesla</h3>
 
                     <div class="lg:mt-64">
                         <div

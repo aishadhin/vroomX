@@ -7,7 +7,7 @@ const Banner = () => {
     <section style={{ backgroundImage: `url(${car})` }} className="mt-[70px] text-white bg-no-repeat bg-cover bg-center h-screen">
       <div class="grid lg:grid-cols-2 gap-4 max-w-7xl lg:ml-10">
         <div className="py-10 pl-5">
-          <h1 className="font-bold">
+          <h1 className="font-bold uppercase">
             Lorem ipsum dolor sit amet.
           </h1>
           <p className="lg:my-10">
