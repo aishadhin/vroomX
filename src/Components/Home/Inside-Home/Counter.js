@@ -24,6 +24,17 @@ const Counter = () => {
                     <h3 className='text-xl'>Happy Customer</h3>
                 </div>
             </div>
+            <div className='text-center  flex flex-col justify-center items-center'>
+            <img src={like} className="w-16 my-5" alt="" />
+            <h3 className='font-bold'><CountUp className='font-bold' style={{fontSize:"60px"}} delay={3} end={8760} /> +</h3>
+            <h3 className='text-xl'>Get Review</h3>
+            </div>
+            <div className='text-center  flex flex-col justify-center items-center'>
+            <img src={service} className="w-16 my-5" alt="" />
+            <h3 className='font-bold'><CountUp className='font-bold' style={{fontSize:"60px"}} delay={3} end={4800} /> +</h3>
+            <h3 className='text-xl'>Service</h3>
+            </div>
+        </div>
         </section>
     );
 };
