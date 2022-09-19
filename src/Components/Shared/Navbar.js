@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import whiteLogo from '../../../Assets/Icons/vroomxlogowhite.png';
+import whiteLogo from '../../Assets/Icons/vroomxlogowhite.png';
 
 const Navbar = ({ children }) => {
     return (
