@@ -13,6 +13,7 @@ const Home = () => {
       <Counter></Counter>
     </div>
   );
+
 };
 
 export default Home;
