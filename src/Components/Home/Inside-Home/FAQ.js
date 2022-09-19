@@ -3,6 +3,7 @@ import icon from '../../../Assets/Icons/goal-min.png';
 
 const FAQ = () => {
 
+    // JavaScript For ReadMore Button
     const ReadMore = ({ children }) => {
         const text = children;
         const [isReadMore, setIsReadMore] = useState(true);
@@ -19,6 +20,7 @@ const FAQ = () => {
             </p>
         );
     };
+    // JavaScript For ReadMore Button
 
     return (
         <section className='mx-auto max-w-screen-xl px-6 sm:px-6 mb-28 mt-52'>
@@ -29,7 +31,7 @@ const FAQ = () => {
 
             <p className='text-center mt-3'>Everything you need to know</p>
 
-            <div className='grid lg:grid-cols-2 mt-16'>
+            <div className='grid lg:grid-cols-2 lg:gap-8 mt-16'>
 
                 {/* FAQ of Left Side Starts From Here */}
                 <div className='mx-auto'>
