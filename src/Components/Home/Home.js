@@ -8,7 +8,7 @@ import Testimonial from "./Inside-Home/Testimonial";
 
 const Home = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       <Banner />
       <Brands />
       <Services />

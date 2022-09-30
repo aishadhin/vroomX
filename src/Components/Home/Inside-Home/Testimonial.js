@@ -6,11 +6,12 @@ const Testimonial = () => {
       <h1 className="font-bold">Testimonial</h1>
      <div className="lg:grid lg:grid-cols-2">
          {/* card start here  */}
-      <div className=" w-96 bg-base-100 hover:border-2 rounded-xl border-2 hover:shadow-xl flex items-center hover:rounded-xl my-10">
+      <div>
+      <div className=" w-96 h-[30%] bg-base-100 hover:border-2 rounded-xl border-2 hover:shadow-xl flex items-center hover:rounded-xl my-10">
         {/* img card  */}
         <div className="p-5">
           <div className="avatar">
-            <div className="w-24 rounded-full">
+            <div className="w-16 rounded-full">
               <img src="https://placeimg.com/192/192/people" alt="" />
             </div>
           </div>
@@ -20,6 +21,37 @@ const Testimonial = () => {
           <h4>Shahriar Rahman</h4>
           <p>We are using cookies for no reason.</p>
         </div>
+      </div>
+      <div className=" w-96 h-[30%] bg-base-100 hover:border-2 rounded-xl border-2 hover:shadow-xl flex items-center hover:rounded-xl my-10">
+        {/* img card  */}
+        <div className="p-5">
+          <div className="avatar">
+            <div className="w-16 rounded-full">
+              <img src="https://placeimg.com/192/192/people" alt="" />
+            </div>
+          </div>
+        </div>
+        {/* text card  */}
+        <div>
+          <h4>Shahriar Rahman</h4>
+          <p>We are using cookies for no reason.</p>
+        </div>
+      </div>
+      <div className=" w-96 h-[30%] bg-base-100 hover:border-2 rounded-xl border-2 hover:shadow-xl flex items-center hover:rounded-xl my-10">
+        {/* img card  */}
+        <div className="p-5">
+          <div className="avatar">
+            <div className="w-16 rounded-full">
+              <img src="https://placeimg.com/192/192/people" alt="" />
+            </div>
+          </div>
+        </div>
+        {/* text card  */}
+        <div>
+          <h4>Shahriar Rahman</h4>
+          <p>We are using cookies for no reason.</p>
+        </div>
+      </div>
       </div>
       {/* card end here  */}
 
