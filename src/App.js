@@ -16,6 +16,13 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
       </Routes>
       <Footer />
+      <Navbar>
+        <div>
+          <Home />
+          <Footer />
+        </div>
+
+      </Navbar>
     </div>
   );
 }
